@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Baselang Studio</title>
+    <link rel="stylesheet" href="styles/studio.css" />
+  </head>
+  <body>
+    <nav class="site-nav">
+      <div class="nav-brand">
+        <a href="index.html" class="nav-logo">B</a>
+        <div class="nav-text">
+          <span class="nav-title">Baselang</span>
+          <span class="nav-sub">Design Systems</span>
+        </div>
+      </div>
+      <div class="nav-links">
+        <span class="nav-round">Round 04</span>
+        <a href="studio.html" class="nav-link active">Studio</a>
+        <a href="calm.html" class="nav-link">Calm</a>
+        <a href="people-analytics.html" class="nav-link">People</a>
+        <a href="core.html" class="nav-link">Core</a>
+        <a href="ledger.html" class="nav-link">Ledger</a>
+      </div>
+      <div class="nav-right">
+        <a href="index.html" class="nav-back">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15,18 9,12 15,6"/></svg>
+          Índice
+        </a>
+      </div>
+    </nav>
+
+    <div class="canvas">
+      <header class="canvas-topbar">
+        <div class="ct-left">
+          <h1 class="ct-title">Dashboard</h1>
+          <span class="ct-breadcrumb">/ Overview</span>
+        </div>
+        <div class="ct-right">
+          <button class="ct-btn">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            Filter
+          </button>
+          <button class="ct-btn ct-primary">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            Add widget
+          </button>
+        </div>
+      </header>
+
+      <main class="canvas-body">
+        <div class="section-block">
+          <div class="sb-label">
+            <span class="sb-n">01</span>
+            <div class="sb-t">
+              <h2>Global KPIs</h2>
+              <p>Staff overview · Live metrics</p>
+            </div>
+          </div>
+
+          <div class="kpi-studio-grid">
+            <div class="ks-item ks-main">
+              <div class="ks-header">
+                <span class="ks-lbl">Total personas</span>
+                <span class="ks-badge ks-green">+2.8%</span>
+              </div>
+              <strong class="ks-val">314</strong>
+              <div class="ks-spark">
+                <svg viewBox="0 0 120 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <polyline points="0,28 20,20 40,22 60,12 80,16 100,8 120,4" stroke="#4a7c6f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <polyline points="0,28 20,20 40,22 60,12 80,16 100,8 120,4 120,32 0,32" fill="#4a7c6f" fill-opacity="0.08"/>
+                </svg>
+              </div>
+              <div class="ks-footer">Staff activo · 6 departamentos</div>
+            </div>
+
+            <div class="ks-item">
+              <div class="ks-header">
+                <span class="ks-lbl">Contratos</span>
+              </div>
+              <strong class="ks-val">316</strong>
+              <div class="ks-footer">2 con doble contrato</div>
+            </div>
+
+            <div class="ks-item ks-accent">
+              <div class="ks-header">
+                <span class="ks-lbl">Turnos activos</span>
+              </div>
+              <strong class="ks-val">286</strong>
+              <div class="ks-footer">Cobertura operacional</div>
+            </div>
+
+            <div class="ks-item ks-warn">
+              <div class="ks-header">
+                <span class="ks-lbl">Suspendidos</span>
+              </div>
+              <strong class="ks-val">3</strong>
+              <div class="ks-footer">Inactividad prolongada</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-block">
+          <div class="sb-label">
+            <span class="sb-n">02</span>
+            <div class="sb-t">
+              <h2>Departamentos</h2>
+              <p>Organización y participación por área.</p>
+            </div>
+          </div>
+
+          <div class="dept-studio">
+            <div class="ds-col">
+              <div class="ds-header-row">
+                <span>Dept</span>
+                <span>Staff</span>
+                <span>%</span>
+              </div>
+              <div class="ds-rows">
+                <div class="ds-row">
+                  <div class="ds-name">
+                    <span class="ds-rank">01</span>
+                    <span class="ds-label">Teaching Department</span>
+                  </div>
+                  <strong class="ds-n">196</strong>
+                  <div class="ds-pct">
+                    <div class="ds-bar"><span style="--v:62%"></span></div>
+                    <span class="ds-p">62%</span>
+                  </div>
+                </div>
+                <div class="ds-row">
+                  <div class="ds-name">
+                    <span class="ds-rank">02</span>
+                    <span class="ds-label">Customer Service</span>
+                  </div>
+                  <strong class="ds-n">57</strong>
+                  <div class="ds-pct">
+                    <div class="ds-bar"><span style="--v:18%"></span></div>
+                    <span class="ds-p">18%</span>
+                  </div>
+                </div>
+                <div class="ds-row">
+                  <div class="ds-name">
+                    <span class="ds-rank">03</span>
+                    <span class="ds-label">Human Resources</span>
+                  </div>
+                  <strong class="ds-n">28</strong>
+                  <div class="ds-pct">
+                    <div class="ds-bar"><span style="--v:9%"></span></div>
+                    <span class="ds-p">9%</span>
+                  </div>
+                </div>
+                <div class="ds-row">
+                  <div class="ds-name">
+                    <span class="ds-rank">04</span>
+                    <span class="ds-label">Marketing + Partnerships</span>
+                  </div>
+                  <strong class="ds-n">22</strong>
+                  <div class="ds-pct">
+                    <div class="ds-bar"><span style="--v:7%"></span></div>
+                    <span class="ds-p">7%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="ds-aside">
+              <div class="ds-chart-label">Distribución por dedicación</div>
+              <div class="ds-donut-wrap">
+                <div class="ds-donut"></div>
+                <div class="ds-donut-leg">
+                  <div class="dsl-item"><span class="dsl-dot da"></span><span>Full Time</span><strong>183</strong></div>
+                  <div class="dsl-item"><span class="dsl-dot db"></span><span>Part Time</span><strong>133</strong></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-block">
+          <div class="sb-label">
+            <span class="sb-n">03</span>
+            <div class="sb-t">
+              <h2>Contratos y dedicación</h2>
+              <p>Modalidad contractual y distribución.</p>
+            </div>
+          </div>
+
+          <div class="contracts-studio">
+            <div class="cs-bars">
+              <div class="cs-item">
+                <div class="cs-meta">
+                  <span class="cs-lbl">Full Time</span>
+                  <span class="cs-v">183</span>
+                </div>
+                <div class="cs-track"><span style="--p:58%"></span></div>
+              </div>
+              <div class="cs-item">
+                <div class="cs-meta">
+                  <span class="cs-lbl">Part Time</span>
+                  <span class="cs-v">133</span>
+                </div>
+                <div class="cs-track"><span style="--p:42%"></span></div>
+              </div>
+              <div class="cs-item">
+                <div class="cs-meta">
+                  <span class="cs-lbl">Bilingüe</span>
+                  <span class="cs-v">114</span>
+                </div>
+                <div class="cs-track"><span style="--p:36%"></span></div>
+              </div>
+              <div class="cs-item">
+                <div class="cs-meta">
+                  <span class="cs-lbl">SO</span>
+                  <span class="cs-v">69</span>
+                </div>
+                <div class="cs-track"><span style="--p:22%"></span></div>
+              </div>
+            </div>
+
+            <div class="cs-sancion">
+              <div class="cs-sanc-header">Sanciones · 38 total</div>
+              <div class="cs-sanc-row">
+                <div class="cs-sanc-block">
+                  <span class="cs-sanc-n">24</span>
+                  <span class="cs-sanc-l">Warnings</span>
+                  <div class="cs-sanc-bar"><span style="--p:63%"></span></div>
+                </div>
+                <div class="cs-sanc-block">
+                  <span class="cs-sanc-n">14</span>
+                  <span class="cs-sanc-l">Llaves</span>
+                  <div class="cs-sanc-bar"><span style="--p:37%"></span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-block">
+          <div class="sb-label">
+            <span class="sb-n">04</span>
+            <div class="sb-t">
+              <h2>Geografía</h2>
+              <p>18 países · Distribución por región.</p>
+            </div>
+          </div>
+
+          <div class="geo-studio">
+            <div class="gs-list">
+              <div class="gs-item">
+                <span class="gs-flag">VE</span>
+                <span class="gs-country">Venezuela</span>
+                <div class="gs-bar"><span style="--p:41%"></span></div>
+                <strong class="gs-n">128</strong>
+              </div>
+              <div class="gs-item">
+                <span class="gs-flag">CO</span>
+                <span class="gs-country">Colombia</span>
+                <div class="gs-bar"><span style="--p:24%"></span></div>
+                <strong class="gs-n">76</strong>
+              </div>
+              <div class="gs-item">
+                <span class="gs-flag">US</span>
+                <span class="gs-country">Estados Unidos</span>
+                <div class="gs-bar"><span style="--p:14%"></span></div>
+                <strong class="gs-n">43</strong>
+              </div>
+              <div class="gs-item">
+                <span class="gs-flag">AR</span>
+                <span class="gs-country">Argentina</span>
+                <div class="gs-bar"><span style="--p:9%"></span></div>
+                <strong class="gs-n">28</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
